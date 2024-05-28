@@ -1,3 +1,3 @@
-﻿# Blox-Assessment
-# We have used Jackson library to parse JSON string. We're using gradle and we have added the dependency in build.gradle.kts file.
-# Main method takes a sample JSON string which is passed to parseJson method. parseJson method uses ObjectMapper class from Jackson library to read and parse the JSON string into a JsonNode. It then calls 'parseJsonNode(JsonNode jsonNode)' recursively to convert JsonNode into corresponding Java object. parseJsonNode method handles JSON objects (mapped to Map<String, Object>), JSON arrays (mapped to List<Object>), and primitive types (mapped to appropriate Java types).
+﻿# Blox-Assessment-Q3
+We have used Jackson library to parse JSON string. We're using gradle and we have added the dependency in build.gradle.kts file.\
+Main method takes a sample JSON string which is passed to parseJson method. parseJson method uses ObjectMapper class from Jackson library to read and parse the JSON string into a JsonNode. It then calls 'parseJsonNode(JsonNode jsonNode)' recursively to convert JsonNode into corresponding Java object. parseJsonNode method handles JSON objects (mapped to Map<String, Object>), JSON arrays (mapped to List<Object>), and primitive types (mapped to appropriate Java types).
